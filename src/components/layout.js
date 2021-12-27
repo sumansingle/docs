@@ -29,19 +29,55 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
+
         <footer
           style={{
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <div id="footer1">
+            <h3>OUR PROCESS</h3>
+            <ul>
+              <li>Requirement</li>
+              <li>Strategy</li>
+              <li>Design</li>
+              <li>Develop</li>
+              <li>Test</li>
+              <li>Deploy</li>
+            </ul>
+          </div>
+          <div id="footer2">
+            <div id="services">
+              <h3>OUR SERVICES</h3>
+              <ul>
+                <li>website design</li>
+                <li>website developement</li>
+                <li>eCommerce design and develoement </li>
+                <li>Mobile App design And developement</li>
+                <li>Website maintainence</li>
+              </ul>
+            </div>
+            <div id="solutions">
+              <h3>OUR SOLUTIONS</h3>
+              <ul>
+                <li>Main Menu</li>
+              </ul>
+            </div>
+            <div id="links">
+              <h3>SOCIAL LINKS</h3>
+              <i class="icon-facebook">Facebook</i>
+            </div>
+
+            {/* <div id="copyright">
+              Copyright © {new Date().getFullYear()}, Built with
+              {` `}
+            </div> */}
+          </div>
         </footer>
       </div>
     </>
