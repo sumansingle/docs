@@ -38,6 +38,7 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `2rem`,
+            color: "white"
           }}
         >
           <div id="footer1">
@@ -71,7 +72,17 @@ const Layout = ({ children }) => {
             <div id="links">
               <h3>SOCIAL LINKS</h3>
               <i class="icon-facebook">Facebook</i>
+            </div> 
+            {/* <div id="button">
+              <button type="button">ABOUT US</button>
+              <button type="button">CONTACT US</button>
             </div>
+            <div id="links">
+              <h3>SOCIAL LINKS</h3>
+              <i class="icon-facebook">Facebook</i>
+              <i class="icon-linkedln">Linkedln</i>
+              <i class="icon-instagram">Instagram</i>
+            </div> */}
 
             {/* <div id="copyright">
               Copyright © {new Date().getFullYear()}, Built with
