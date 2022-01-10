@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            <Link to="/" className="uppercase p-2 hover:bg-yellow-200">
+            <Link to="/about/" className="uppercase p-2 hover:bg-yellow-200">
               About
             </Link>
           </li>
