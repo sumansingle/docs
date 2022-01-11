@@ -19,7 +19,7 @@ const SecondPage = () => (
 BUSINESS<br></br>
 WITH US</h1></div>
 <div className="text-2xl text-center ">ABOUT</div>
-<div className="text-1xl text-center mx-8 ml-4 mr-4">BITDECODERS is the team name of WELLSOUL PRIVATE LIMITED.
+<div className="text-1xl text-center  ml-4 mr-4">BITDECODERS is the team name of WELLSOUL PRIVATE LIMITED.
    This team works in the field of Programming Code.
     Currently, we are dealing in WEBSITE DESIGN & DEVELOPMENT,
      e-Commerce DESIGN & DEVELOPMENT, and MOBILE APP DESIGN & DEVELOPMENT.
